@@ -1,0 +1,55 @@
+a:link{
+    color: green;
+ 
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    opacity: 1;
+    background-color: black;
+    color: white;
+}
+a:active{
+    background-color: gray;
+}
+a{
+    text-decoration: none;
+    background: blue;
+    opacity: 0.3;
+    margin-top: 5px;
+    display: inline-block;
+    border-radius: 0 10px 0 10px;
+    padding: 10px;
+    border: 2px solid green;
+}
+.list{
+    list-style-type: circle
+}
+.li{
+    list-style-type: armenian;
+    list-style-position: outside;
+    margin: 0;
+    padding: 0;
+}
+.p{
+    list-style: lower-greek;
+    background-color: burlywood;
+}
+div{
+    overflow-x: auto;
+}
+table{
+    width: 50%;
+}
+table,th,td{
+    border: 2px solid blue;
+    border-collapse: collapse;
+}
+th{
+    height: 50px;
+    
+}
+tr:nth-child(even){
+    background: gray;
+}
